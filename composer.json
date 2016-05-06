@@ -1,0 +1,28 @@
+{
+    "name": "amaxlab/account-template",
+    "description": "Класс печатной формы счета на базе HTML шаблона из 1с",
+    "keywords": [ "php", "1c", "account", "template"],
+    "homepage": "https://github.com/amaxlab/account-template",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "jurchiks/numbers2words": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmaxLab\\Templates\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "authors": [
+        {
+            "name": "Egor Zyuskin",
+            "email": "egor@zyuskin.ru"
+        }
+    ]
+}
