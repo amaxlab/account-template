@@ -11,7 +11,7 @@ Account template
 
     composer require amaxlab/account-template
     
-### 2. Создать сласс Account
+### 2. Создать класс Account
 
     $account = new \AmaxLab\Templates\Account(1, new DateTime());
 - первый параметр "Номер счета"
