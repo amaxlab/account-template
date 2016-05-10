@@ -615,7 +615,7 @@ class Account
     /**
      * @return int
      */
-    public function getItemCount()
+    public function getItemsCount()
     {
         return count($this->items);
     }
@@ -649,7 +649,7 @@ class Account
     private function getReplaceArray()
     {
         $return = [];
-        $fields = array_merge(['sum', 'sumText', 'itemCount'], array_keys(get_object_vars($this)));
+        $fields = array_merge(['sum', 'sumText', 'itemsCount'], array_keys(get_object_vars($this)));
 
         foreach ($fields as $field) {
             $method = sprintf('get%s', ucwords($field));
